@@ -1,0 +1,240 @@
+/* === global settings ==== */
+
+:root {
+  --site-font: "Poppins", sans-serif;
+  --green: #1a9e47;
+  --lightgreen: #63bf48;
+  --orange: #f8931f;
+  --site-black: #32383f;
+}
+body {
+    margin-bottom: 40px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+/* navbar styling starts */
+body {
+  font-family: var(--site-font);
+}
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  align-items: center;
+}
+ul {
+  list-style: none;
+}
+.nav-item-single {
+  text-decoration: none;
+  margin: 0px 15px;
+  color: black;
+}
+.nav-items {
+  display: flex;
+}
+#get-started {
+  width: 100px;
+  height: 40px;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+  background: rgb(37, 201, 47);
+  background: linear-gradient(
+    90deg,
+    rgba(37, 201, 47, 1) 0%,
+    rgba(8, 102, 27, 1) 65%
+  );
+  color: white;
+}
+
+.active {
+  color: var(--green);
+}
+/* navbar styling ends */
+/* hero section starts */
+
+.hero-container {
+  margin: 0px 170px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 55vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-container .name {
+  font-size: 44px;
+  text-transform: uppercase;
+  color: var(--site-black);
+  font-weight: bolder;
+  /* webkit-text-stroke: 1px black; */
+}
+.creative-desginer {
+  font-size: 48px;
+  text-transform: uppercase;
+}
+.creative-desginer :nth-child(1) {
+  color: var(--green);
+}
+.creative-desginer :last-child {
+  color: var(--orange);
+}
+#explore-portfolio {
+  width: 100px;
+  height: 40px;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+  background: rgb(37, 201, 47);
+  background: linear-gradient(
+    90deg,
+    rgba(37, 201, 47, 1) 0%,
+    rgba(8, 102, 27, 1) 65%
+  );
+  color: white;
+  margin-top: 5px;
+}
+#design-awrd {
+  width: 150px;
+  height: 40px;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+  background: #fecf92;
+  color: black;
+  margin-top: 5px;
+  margin-left: 28px;
+  padding: 10px;
+}
+#badge-button {
+  width: 43px;
+  height: 43px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  margin-left: 15px;
+  position: absolute;
+  margin-top: 4px;
+  background-color: var(--orange);
+}
+#badge {
+  color: white;
+}
+.about-container {
+  margin: 0px 170px;
+  height: auto;
+}
+.left-section .name,
+creative-desginer {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+/* hero section ends */
+
+/* about section starts */
+.about-me-heading {
+  color: var(--green);
+  text-decoration: underline;
+}
+.about-me-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ambition-purpose-section {
+  display: flex;
+}
+.about-me-creative-heading {
+  font-size: 30px;
+}
+.ambition-purpose-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 20px;
+}
+.ambition-purpose-section .about-left-container {
+  width: 85%;
+  height: auto;
+  border: 2px solid var(--orange);
+  border-radius: 14px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.fa-fire , .fa-trophy {
+  font-size: 70px;
+  color: var(--orange);
+}
+.fa-trophy {
+    color: var(--green);
+}
+.about-right-container {
+  border: 2px solid var(--green);
+  border-radius: 14px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* about section end */
+/* contact me starts */
+.contact-me-container{
+    margin: 0px 170px;
+}
+.container-me-header-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.contact-me-container:nth-child(1){
+    font-size: 25px;
+}
+
+.top-contact-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.form-input{
+    width: 90%;
+    padding: 20px;
+    border: 0.5px solid lightgray;
+    border-radius: 10px;
+}
+.contact-me-form-container{
+    margin-top: 30px;
+}
+
+#send-message{
+    width: 120px;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    background: rgb(37, 201, 47);
+    background: linear-gradient(
+      90deg,
+      rgba(37, 201, 47, 1) 0%,
+      rgba(8, 102, 27, 1) 65%
+    );
+    color: white;
+}
+
+.send-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+
+/* contact me ends */
